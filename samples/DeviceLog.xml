@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DeviceLog>
+  <Windows>
+    <Window index="0">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="1">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="2">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="3">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="4">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="5">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="6">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="7">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="8">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="9">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="10">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="11">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="12">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="13">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="14">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="15">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="16">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="17">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="18">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="19">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="20">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="21">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="22">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="23">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="24">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="25">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="26">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="27">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="28">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="29">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="30">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="31">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="32">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="33">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="34">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="35">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="36">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="37">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="38">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="39">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="40">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="41">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="42">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="43">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="44">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="45">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="46">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="47">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="48">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="49">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="50">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="51">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="52">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="53">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="54">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="55">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="56">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="57">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="58">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="59">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="60">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="61">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="62">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="63">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="64">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="65">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="66">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="67">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="68">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="69">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="70">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="71">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="72">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="73">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="74">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="75">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="76">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="77">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="78">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="79">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="80">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="81">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="82">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="83">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="84">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="85">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="86">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="87">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="88">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="89">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="90">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="91">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="92">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="93">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="94">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="95">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="96">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="97">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="98">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+    <Window index="99">
+      <Details>
+        <Name>示例设备</Name>
+        <Samples>
+          <Value>10</Value>
+          <Value>20</Value>
+          <Value>30</Value>
+        </Samples>
+      </Details>
+    </Window>
+  </Windows>
+  <NextSection>
+    <Done>true</Done>
+  </NextSection>
+</DeviceLog>

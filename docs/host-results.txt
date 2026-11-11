@@ -1,0 +1,54 @@
+Real Notepad++ host tests. Version=8038e
+PASS JSON at document start hides bar
+PASS JSON scroll uses viewport with caret still at start
+PASS scrolling does not move caret
+PASS editor outer rectangle unchanged
+PASS body client begins below reserved sticky rows
+PASS updates preserve input focus
+PASS JSON closing bracket excludes completed array
+PASS JSON closing object excludes completed DeviceLog
+PASS JSON closing root hides all rows
+PASS sticky row has independent nonclient hit target
+PASS click navigation reaches exact source line
+PASS clicked source is not duplicated
+PASS insert before ancestors invalidates all source line numbers
+PASS undo restores ancestor lines
+PASS collapsed array does not leak stale parents
+PASS expanding fold restores ancestry
+PASS horizontal scrolling preserves parent identity
+PASS sticky drawing uses host horizontal offset
+PASS zoom preserves ancestry
+PASS sticky height follows host zoom
+PASS disable removes subclass and restores full client height
+PASS reenable restores sticky rows
+PASS empty file hides bar
+PASS unsupported language hides bar
+PASS XML ancestors from built-in lexer
+PASS XML closing tag excludes completed Windows
+PASS XML root closing tag hides bar
+PASS ambiguous multiline XML fold header is safely omitted
+PASS XML comment folding is not shown as element ancestry
+PASS deep nesting keeps nearest five in outer to inner order
+PASS host actually wraps long parent line
+PASS partly visible wrapped header is not duplicated
+PASS offscreen long wrapped header appears safely
+PASS main split view retains its own scroll context
+PASS second split view has independent context
+PASS closing second view leaves no sticky region
+PASS remaining view survives second-view close
+PASS 150000-line cold jump eventually resolves ancestors
+METRIC cold jump observed after 221.004 ms (200 ms observation granularity)
+METRIC 1000 cached scroll+update calls median=0.6267 ms p95=1.1455 ms max=16.3735 ms
+PASS cached large-file update p95 below one 60 Hz frame
+PASS sticky operations never modify document
+PASS large-file edit rebuilds source lines without stale cache
+PASS large file scroll back to start hides bar
+PASS window resize keeps correct ancestors
+PASS resize keeps required sticky height
+PASS theme and font changes keep correct ancestors
+PASS sticky colors follow editor theme styles
+PASS font family and fractional size use current window DPI
+PASS sticky update preserves body text selection
+PASS disabled fold information safely hides bar
+PASS restored fold information recovers bar
+RESULT 50 checks, 0 failures
