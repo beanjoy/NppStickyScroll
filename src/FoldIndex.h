@@ -33,12 +33,18 @@ public:
     }
     template<class IsOffscreen>
     std::vector<Line> ancestors(Line line, int effectiveLevel, IsOffscreen offscreen,
-                               size_t limit = 5) const {
+                               size_t limit = 5, bool nearest = true) const {
         std::vector<Line> result;
-        if (line < 0 || line >= size() || effectiveLevel < SC_FOLDLEVELBASE) return result;
-        for (Line p = parent(line); p >= 0 && result.size() < limit; p = parent(p)) {
-            if (level(p) < effectiveLevel && offscreen(p)) result.push_back(p);
+        if (!limit || line < 0 || line >= size() || effectiveLevel < SC_FOLDLEVELBASE) return result;
+        size_t next = 0;
+        for (Line p = parent(line); p >= 0; p = parent(p)) {
+            if (level(p) >= effectiveLevel || !offscreen(p)) continue;
+            if (result.size() < limit) result.push_back(p);
+            else { result[next] = p; next = (next + 1) % limit; }
+            if (nearest && result.size() == limit) break;
         }
+        // The bounded ring retains the outermost entries without storing every ancestor.
+        if (!nearest && result.size() == limit) std::rotate(result.begin(), result.begin() + next, result.end());
         std::reverse(result.begin(), result.end());
         return result;
     }

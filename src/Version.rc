@@ -1,0 +1,33 @@
+#include <windows.h>
+#include "Version.h"
+
+1 VERSIONINFO
+ FILEVERSION NPP_STICKY_VERSION_PARTS
+ PRODUCTVERSION NPP_STICKY_VERSION_PARTS
+ FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+#ifdef _DEBUG
+ FILEFLAGS VS_FF_DEBUG
+#else
+ FILEFLAGS 0
+#endif
+ FILEOS VOS_NT_WINDOWS32
+ FILETYPE VFT_DLL
+ FILESUBTYPE 0
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "FileDescription", "NppStickyScroll - JSON/XML Sticky Scroll\0"
+            VALUE "FileVersion", NPP_STICKY_VERSION "\0"
+            VALUE "InternalName", "NppStickyScroll\0"
+            VALUE "OriginalFilename", "NppStickyScroll.dll\0"
+            VALUE "ProductName", "NppStickyScroll\0"
+            VALUE "ProductVersion", NPP_STICKY_VERSION "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 1200
+    END
+END

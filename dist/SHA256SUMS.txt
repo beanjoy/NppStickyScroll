@@ -1,1 +1,1 @@
-7c2ed585b1e31bb3c00a59b329b47faf8fea485e8e6be68c2112ba7e98bee8d3  NppStickyScroll.dll
+a14e6c7ca951256f0a5fbc8a932a148b9f7801a8d87a8de7bd9ba80e9fecd387  NppStickyScroll.dll

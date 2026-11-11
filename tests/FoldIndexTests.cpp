@@ -1,4 +1,5 @@
 #include "FoldIndex.h"
+#include "Settings.h"
 #include <cstdlib>
 #include <iostream>
 
@@ -30,8 +31,22 @@ int main() {
     for (int i = 0; i < 20; ++i) index.append((base + i) | header);
     index.append(base + 20);
     require(index.ancestors(20, base + 20, all) == std::vector<Line>({15, 16, 17, 18, 19}), "nearest five");
+    require(index.ancestors(20, base + 20, all, 3) == std::vector<Line>({17, 18, 19}), "configurable nearest three");
+    require(index.ancestors(20, base + 20, all, 3, false) == std::vector<Line>({0, 1, 2}), "outermost three");
+    require(index.ancestors(20, base + 20, all, 8) == std::vector<Line>({12, 13, 14, 15, 16, 17, 18, 19}), "more than five");
+    require(index.ancestors(20, base + 20, [](Line p) { return p % 2 == 0; }, 3, false) == std::vector<Line>({0, 2, 4}), "outermost filters ineligible headers");
+    require(index.ancestors(20, base + 20, all, 0).empty(), "no available rows");
+    require(index.ancestors(20, base + 20, all, 30, false).size() == 20, "fewer ancestors than limit");
+    sticky::Settings settings;
+    require(settings.maxRows == 5 && settings.nearest, "default settings");
+    settings.maxRows = -1;
+    settings.normalize();
+    require(settings.maxRows == 1, "minimum row setting");
+    settings.maxRows = 1000;
+    settings.normalize();
+    require(settings.maxRows == 20, "maximum row setting");
     index.clear();
     index.append(base);
     require(index.ancestors(0, base, all).empty(), "no fold info");
-    std::cout << "8 fold ancestry checks passed\n";
+    std::cout << "17 fold ancestry and settings checks passed\n";
 }

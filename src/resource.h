@@ -1,0 +1,6 @@
+#pragma once
+#define IDD_SETTINGS 101
+#define IDC_MAX_ROWS 1001
+#define IDC_MAX_SPIN 1002
+#define IDC_NEAREST 1003
+#define IDC_OUTERMOST 1004

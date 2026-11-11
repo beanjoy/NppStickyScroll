@@ -1,0 +1,11 @@
+Before fix: 0.4.0 production behavior with test-only counters.
+Real Notepad++ host tests. Version=8038e
+PASS open real Large.json without forced whole-document styling
+PASS naturally styled Large.json resolves initial parents
+METRIC natural styling frontier=330218 bytes of 5138958
+METRIC stopped during background styling rowClears=24 blankPaints=34 heightChanges=0 styled=4094316
+FAIL stopped Large.json keeps parents visible during background styling
+METRIC natural scroll rowClears=6 blankPaints=9 heightChanges=0
+FAIL natural Large.json scrolling never blanks unchanged ancestors or resizes header
+PASS stationary Large.json settles without a layout or update loop
+RESULT 5 checks, 2 failures

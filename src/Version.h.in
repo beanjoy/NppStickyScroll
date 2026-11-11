@@ -1,0 +1,5 @@
+// Generated from the CMake project version. Do not edit generated copies.
+#pragma once
+#define NPP_STICKY_VERSION "@PROJECT_VERSION@"
+#define NPP_STICKY_VERSION_W L"@PROJECT_VERSION@"
+#define NPP_STICKY_VERSION_PARTS @PROJECT_VERSION_MAJOR@, @PROJECT_VERSION_MINOR@, @PROJECT_VERSION_PATCH@, 0

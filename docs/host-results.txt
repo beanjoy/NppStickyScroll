@@ -1,14 +1,27 @@
 Real Notepad++ host tests. Version=8038e
+PASS DLL has standard Windows version matching CMake
+PASS About menu displays the actual build version
+PASS About menu opens a Notepad++ owned dialog
+PASS Notepad++ Debug Info displays the version from the DLL resource
 PASS JSON at document start hides bar
 PASS JSON scroll uses viewport with caret still at start
 PASS scrolling does not move caret
-PASS editor outer rectangle unchanged
-PASS body client begins below reserved sticky rows
+PASS editor occupies body portion of host allocation
+PASS header and body are adjacent with no overlap
+PASS independent Win32 scrollbar geometry available
+PASS independent scrollbar stays to the right of header and body
+PASS editor native vertical scrollbar is disabled while adapter owns it
+PASS sticky header has no scrollbar
+PASS source line number gutter matches host margin
+PASS JSON fields and punctuation retain their source lexer styles
+PASS JSON field foreground equals the editor color
+PASS header restores measured native editor top border thickness
 PASS updates preserve input focus
 PASS JSON closing bracket excludes completed array
 PASS JSON closing object excludes completed DeviceLog
 PASS JSON closing root hides all rows
-PASS sticky row has independent nonclient hit target
+PASS sticky row has independent child window hit target
+PASS physical pointer targets header instead of falling through STATIC
 PASS click navigation reaches exact source line
 PASS clicked source is not duplicated
 PASS insert before ancestors invalidates all source line numbers
@@ -19,16 +32,42 @@ PASS horizontal scrolling preserves parent identity
 PASS sticky drawing uses host horizontal offset
 PASS zoom preserves ancestry
 PASS sticky height follows host zoom
-PASS disable removes subclass and restores full client height
+PASS disable restores full client height and original vertical scrollbar
 PASS reenable restores sticky rows
 PASS empty file hides bar
 PASS unsupported language hides bar
 PASS XML ancestors from built-in lexer
+PASS XML element names retain source lexer styles
+PASS XML tag foreground equals the editor color
+PASS XML lookahead fold change still invalidates current context
+PASS XML lookahead invalidation recovers correct parents
 PASS XML closing tag excludes completed Windows
 PASS XML root closing tag hides bar
 PASS ambiguous multiline XML fold header is safely omitted
 PASS XML comment folding is not shown as element ancestry
 PASS deep nesting keeps nearest five in outer to inner order
+PASS settings dialog accepts configured rows and preference
+PASS configured outermost three appear in source order
+PASS settings dialog accepts configured rows and preference
+PASS configured nearest eight exceed previous fixed limit
+PASS settings dialog cancels
+PASS cancel leaves settings unchanged
+PASS confirmed settings persist in portable INI
+PASS settings survive disable and reenable
+PASS settings dialog accepts configured rows and preference
+PASS independent Win32 scrollbar geometry available
+PASS drag across document start hides parents immediately
+PASS independent Win32 scrollbar geometry available
+PASS header shrinks during drag while track geometry stays fixed
+PASS thumb mapping retains range and page despite live body resize
+PASS parents continue updating during thumb tracking
+PASS independent Win32 scrollbar geometry available
+PASS header grows during drag while track stays fixed
+PASS ending drag preserves current context
+PASS release needs no deferred header resize
+PASS header hidden before drag starting at document top
+PASS drag starting without header displays parents before release
+PASS release restores nearest parents after initially hidden header
 PASS host actually wraps long parent line
 PASS partly visible wrapped header is not duplicated
 PASS offscreen long wrapped header appears safely
@@ -37,18 +76,58 @@ PASS second split view has independent context
 PASS closing second view leaves no sticky region
 PASS remaining view survives second-view close
 PASS 150000-line cold jump eventually resolves ancestors
-METRIC cold jump observed after 221.004 ms (200 ms observation granularity)
-METRIC 1000 cached scroll+update calls median=0.6267 ms p95=1.1455 ms max=16.3735 ms
+METRIC cold jump observed after 397.822 ms (200 ms observation granularity)
+METRIC 1000 cached scroll+update calls median=0.3983 ms p95=0.7042 ms max=2.8318 ms
 PASS cached large-file update p95 below one 60 Hz frame
+PASS 1000 scroll updates reuse font and margin cache
+METRIC disabled baseline 1000 scroll calls median=0.4894 ms p95=1.0748 ms max=2.4736 ms
+PASS independent scrollbar stores positions beyond 65535 without truncation
+METRIC native drag start enabled=1 visible=1 rect=1073,104,1090,666 thumb=490,507 range=150078 page=33 pos=139001
+METRIC native down returned phase=0 captured=0
+SKIP native modal drag: synthetic button message did not start capture; physical input still required
 PASS sticky operations never modify document
 PASS large-file edit rebuilds source lines without stale cache
 PASS large file scroll back to start hides bar
 PASS window resize keeps correct ancestors
 PASS resize keeps required sticky height
+PASS repeated host layout does not accumulate sticky inset
 PASS theme and font changes keep correct ancestors
 PASS sticky colors follow editor theme styles
 PASS font family and fractional size use current window DPI
 PASS sticky update preserves body text selection
 PASS disabled fold information safely hides bar
 PASS restored fold information recovers bar
-RESULT 50 checks, 0 failures
+PASS independent scrollbar arrow uses editor display lines
+PASS independent scrollbar page command uses body page size
+PASS host can hide the independent scrollbar
+PASS host can restore independent scrollbar without duplicating native bar
+PASS changing a syntax color refreshes unchanged sticky rows
+PASS style-only notification refreshes cached lexer runs
+PASS XML attribute header retains context
+PASS XML attributes and quoted values retain distinct source styles
+PASS XML attribute value color follows the editor
+PASS Unicode and tabbed headers retain context
+PASS UTF-8 Chinese and supplementary characters survive styled decoding
+PASS truncated UTF-8 header retains ancestry
+PASS styled line byte cap does not split a multibyte character
+PASS 1000 queued scroll events coalesce without an idle update loop
+PASS varying-depth 156000-line log is indexed
+METRIC varying-depth scroll+update+paint median=16.6742 ms p95=17.8123 ms max=19.427 ms heightChanges=96
+PASS varying-depth benchmark exercises frequent live height changes
+METRIC varying-depth disabled scroll+paint median=16.68 ms p95=17.3312 ms max=17.8901
+PASS open real Large.json without forced whole-document styling
+PASS naturally styled Large.json resolves initial parents
+METRIC natural styling frontier=444424 bytes of 5138958
+METRIC stopped during background styling rowClears=0 blankPaints=0 heightChanges=0 styled=5138958
+PASS stopped Large.json keeps parents visible during background styling
+METRIC natural scroll rowClears=0 blankPaints=0 heightChanges=0
+PASS natural Large.json scrolling never blanks unchanged ancestors or resizes header
+PASS stationary Large.json settles without a layout or update loop
+PASS changing a displayed ancestor still invalidates click targets immediately
+PASS ancestor fold change recomputes the current context
+PASS restoring ancestor fold information recovers correct rows
+PASS forward scroll populates a larger cached fold suffix
+PASS backward scroll uses the valid cached prefix
+PASS later fold change trims cached suffix without clearing current parents
+PASS returning to invalidated suffix rebuilds correct ancestors
+RESULT 120 checks, 0 failures
